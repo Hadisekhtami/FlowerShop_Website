@@ -1,0 +1,172 @@
+@font-face {
+    font-family: 'FH Collena';
+    src: url(./FH+Collena.eot);
+    src: url(./FH+Collena.eot?#iefix) format('embedded-opentype'),
+         url(./FH+Collena.woff2) format('woff2'),
+         url(./FH+Collena.woff) format('woff'),
+         url(./FH+Collena.ttf) format('truetype'),
+         url(./FH+Collena.otf) format('otf');
+  }
+  @font-face {
+    font-family: 'Belfika Namor';
+    src: url(./Belfika+Namor.eot);
+    src: url(./Belfika+Namor.eot?#iefix) format('embedded-opentype'),
+         url(./Belfika+Namor.woff2) format('woff2'),
+         url(./Belfika+Namor.woff) format('woff'),
+         url(./Belfika+Namor.ttf) format('truetype'),
+         url(./Belfika+Namor.otf) format('otf');
+}
+  
+  *
+{
+    color: black;
+    text-decoration: none;
+}
+  html
+{
+    font-size: 16px;
+}
+header
+{
+    height: 100vh;
+    /* border-bottom: 3px solid #b2a988; */
+}
+  
+.text-brand
+{
+    font-size: 3rem;
+    font-family: 'Belfika Namor';
+    font-weight: bold;
+    color: #b2a988;
+}
+  .header-text
+{
+    font-size: 1.3rem;
+    color: #b2a988;;
+}
+.header-title
+{
+    font-size: 2rem;
+    color: #b2a988;
+    font-family: 'Belfika Namor';
+}
+.nav-link:hover
+{
+    color: #cfbcc0;
+}
+hr.style-hr
+{
+    overflow: visible; 
+    border-top:  solid #b2a988;
+    color:#b2a988;
+    text-align: center; 
+}
+hr.style-hr:after
+{
+    content: "In Season";
+    color: #b2a988;
+    display: inline-block;
+    position: relative;
+    top: -0.9em;
+    padding: 0 15px;
+    background:#1c2415;
+    font-family: 'B Titr';
+    font-size: 2.5rem;
+}
+.card
+{
+    border: 1px solid #b2a988;
+    background: transparent;
+}
+.card-img-top
+{
+    aspect-ratio: 1;
+    object-fit: contain;
+}
+.card:hover
+{
+    box-shadow: 0px 2px  2px #779f546b;
+    transform: translate(0px, -10px);
+    transition: all .5s ease-in-out;
+}
+.card-body
+{
+    background-color: #1c2415!important;
+}
+.card-text,.card-title
+{
+    color: #b2a988;
+}
+.category-title
+{
+    color: #b2a988;
+    font-family: 'Belfika Namor';
+}
+.bg-footer
+{
+    background-color: #1c2415;
+    border-top: 3px solid #b2a988;
+}
+.fa-list,.navbar-toggler-text
+{
+    color: #b2a988!important;
+}
+.searchbar
+{
+    display: flex;
+    flex-wrap:nowrap ;
+}
+.card-title
+{
+    font-family: 'Belfika Namor';
+}
+.wrapper-seed
+{
+    bottom: 18px;
+}
+@media only screen and (max-width: 1200px) 
+{ 
+ .header-img
+  
+    {
+      height: 70vh!important;
+    }
+    .search-input
+    {
+      width: 69px;
+    }
+    .brand
+    {
+      justify-content: center;
+      font-weight: bold;
+      order: 1;
+    }
+    .seed-desc
+    {
+      display: none;
+    }
+    .card-title
+    {
+      text-wrap: nowrap;
+    }
+}
+@media only screen and (max-width: 768px) 
+{
+    header
+    {
+      height:100vh;
+     
+    }
+    .wrapper-seed
+    {
+      display: none!important;
+    } 
+    .card
+    {
+      width: 300px;
+      margin: auto;
+    } 
+    
+}
+  
+  
